@@ -21,6 +21,6 @@
 
 ## Запуск проекта
   - git clone https://github.com/Menethilzxc/ts-wather.git
-  - cd ts-wather.git
+  - cd ts-wather
   - npm install
   - npm run dev
