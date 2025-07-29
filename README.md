@@ -10,7 +10,7 @@
   - Плавный и чистый интерфейс
 
 ## Скриншот
-  - ![Главная страница](./wather/src/assets/screen/photo_2025-07-29_16-27-21.jpg)
+   ![Главная страница](./wather/src/assets/screen/photo_2025-07-29_16-27-21.jpg)
 
 ## Технологии
   - React + TypeScript
