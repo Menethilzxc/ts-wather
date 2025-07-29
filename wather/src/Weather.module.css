@@ -8,11 +8,23 @@
 .background {
     position: absolute;
     inset: 0;
-    background: url('./assets//summer-bg.jpg') no-repeat;
+    background: url('./assets/summer-bg.jpg') no-repeat;
     background-size: cover;
     background-position: center;
     filter: blur(6px);
     z-index: 1;
+}
+
+.forest {
+    background: url('./assets//summer-bg.jpg') no-repeat center/cover;
+}
+
+.rain {
+    background: url('./assets/rainy-bg.jpg') no-repeat center/cover;
+}
+
+.snow {
+    background: url('./assets/winter-bg.jpg') no-repeat center/cover;
 }
 
 .content {
@@ -24,9 +36,9 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-style:normal;
-    font-size: 50px;
-    color:rgb(243, 109, 0);
-    margin: 10px 0 50px 0;
+    font-size: 70px;
+    color:rgb(252, 76, 7);
+    margin: 10px 0 40px 0;
 }
 
 .cards {
@@ -49,6 +61,7 @@
     margin-right: 30px;
     background: url('./assets/summer-bg.jpg');
     background-size: cover;
+    cursor: pointer;
 }
 
 .rainCard {
@@ -62,6 +75,7 @@
     margin-right: 30px;
     background: url('./assets/rainy-bg.jpg');
     background-size: cover;
+    cursor: pointer;
 }
 
 .snowCard {
@@ -74,12 +88,14 @@
     border-radius: 20px;
     background: url('./assets/winter-bg.jpg');
     background-size: cover;
+    cursor: pointer;
 }
 
 .volume {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 .volume input {
